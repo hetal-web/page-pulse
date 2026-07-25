@@ -124,3 +124,8 @@ Built as part of the Digital Heroes Software Development Qualification Task.
 
 ## AI Usage
 I used ChatGPT as a development assistant throughout this project to learn unfamiliar concepts, troubleshoot Flask and Python issues, refine the application structure, and improve the user interface. I did not use AI-generated code without review. I tested, modified, and integrated the suggestions based on my own understanding and project requirements. The final implementation, debugging, testing, deployment, and overall design decisions were completed by me.
+
+## Assumptions
+
+- The project brief did not specify a health score formula, so I designed a scoring system based on HTTP status, page metadata, heading structure (H1), image ALT attributes, and response time.
+- If a webpage could not be accessed or contained invalid HTML, the application returns an appropriate error message instead of attempting further analysis.
