@@ -110,12 +110,6 @@ pytest -v
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots here after deployment.)
-
----
-
 ## 🌍 Deployment
 
 The project can be deployed on Render or any platform that supports Python Flask applications.
@@ -127,3 +121,6 @@ The project can be deployed on Render or any platform that supports Python Flask
 Hetal Boricha
 
 Built as part of the Digital Heroes Software Development Qualification Task.
+
+## AI Usage
+I used ChatGPT as a development assistant throughout this project to learn unfamiliar concepts, troubleshoot Flask and Python issues, refine the application structure, and improve the user interface. I did not use AI-generated code without review. I tested, modified, and integrated the suggestions based on my own understanding and project requirements. The final implementation, debugging, testing, deployment, and overall design decisions were completed by me.
