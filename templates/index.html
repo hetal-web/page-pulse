@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>PagePulse</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Hero -->
+
+        <section class="hero">
+
+            <h1>⚡ PagePulse</h1>
+
+            <p>
+                Website Insights in Seconds
+            </p>
+
+        </section>
+
+        <!-- Search -->
+
+        <section class="search-section">
+
+            <input
+                type="text"
+                id="url"
+                placeholder="https://example.com">
+
+            <button id="analyze">
+                Analyze
+            </button>
+
+        </section>
+
+        <!-- Loader -->
+
+        <section
+            id="loader"
+            class="hidden">
+
+            <div class="spinner"></div>
+
+            <p>Analyzing Website...</p>
+
+        </section>
+
+        <!-- Results -->
+
+        <section id="result">
+
+<div class="empty-state">
+
+    <div class="emoji">
+        🚀
+    </div>
+
+    <h2>
+        Ready to Analyze
+    </h2>
+
+    <p>
+
+        Enter any website URL and click
+        <strong>Analyze</strong>.
+
+    </p>
+
+</div>
+
+</section>
+
+<section class="history">
+
+    <h2>Recent Analyses</h2>
+
+    <div id="historyList">
+
+    </div>
+
+</section>
+
+        <!-- Footer -->
+
+        <footer>
+
+            <a
+             href="https://digitalheroesco.com"
+             target="_blank">
+
+                Built for Digital Heroes Training Task
+
+            </a>
+
+        </footer>
+
+    </main>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
